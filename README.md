@@ -18,8 +18,6 @@ $ ./configure CC=gcc-11
 $ make CC=gcc-11
 ```
 
-(I got the autoreconf command from [this repo's README](https://github.com/nils-eilers/exec09), and the rest of them from [this installation script](https://github.com/nealcrook/exec09/blob/trunk/build.osx.sh)).
+(I got this from a stackoverflow post, I think. I added the CC=gcc-11 to tell configure and make to use gcc instead of clang, because clang was erroring out).
 
-I also told make and configure to use gcc instead of clang, because clang was erroring out.
-
-NOTE 2: I built this on macOS 12.1 with XCode 13.2.1.
+NOTE: I built this on macOS 12.1 with XCode 13.2.1.
