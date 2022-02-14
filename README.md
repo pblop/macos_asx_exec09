@@ -1,8 +1,6 @@
 # macos_asx_exec09
 
-ASxxxx (https://shop-pdp.net/ashtml/asxxxx.php) and exec09 (https://github.com/nealcrook/exec09) binaries for macOS.
-
-For exec09 to work correctly with ASxxxx I had to clone the tag https://github.com/nealcrook/exec09/releases/tag/multicomp09_mmapper_mk1.
+ASxxxx (https://shop-pdp.net/ashtml/asxxxx.php) and exec09 (https://github.com/bcd/exec09) binaries for macOS.
 
 I installed autoreconf, automake, readline, libtool, and gcc via homebrew.
 
